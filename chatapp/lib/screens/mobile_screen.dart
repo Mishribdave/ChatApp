@@ -36,7 +36,11 @@ class mobileScreenLayout extends StatelessWidget {
                     size: 30,
                   )),
             ],
-            // bottom: TabBar(tabs: ),
+            bottom: TabBar(tabs: [
+              Tab(
+                text: 'CHATS',
+              )
+            ]),
           ),
         ));
   }
